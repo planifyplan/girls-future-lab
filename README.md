@@ -1,23 +1,53 @@
-# Girls' Future Lab — Demo Prototype
+# Girls' Future Lab — Multi-Lesson Demo Prototype
 
-A static browser-based demonstration of a proposed learning platform for adolescent girls. It includes sample lessons in health and wellbeing, digital confidence, and money skills, plus a rule-based question-and-answer demo.
+A static, mobile-responsive learning demonstration for adolescent girls, with 12 short lessons across three learning paths.
 
-## Important status and limitations
+## Explore the live demo
 
-This repository contains an early demonstration prototype for discussion and further development. It has not been validated through a formal pilot, and no user testing results are claimed. The question-and-answer feature is rule-based; it is not connected to a live AI system. The demo does not collect user data, use accounts, or include a backend or analytics system.
+https://planifyplan.github.io/girls-future-lab/
 
-Health content is general educational information and is not a substitute for advice from a qualified health professional. Before testing with adolescents, the project will require appropriate safeguarding, privacy, consent, and content-review processes.
+## Learning paths
+
+### Health & wellbeing
+1. Understanding puberty
+2. Understanding your menstrual cycle
+3. Emotional wellbeing and stress
+4. Healthy boundaries and trusted support
+
+### Digital confidence
+5. Protecting your personal information
+6. Recognising scams and misleading messages
+7. Cyberbullying and respectful online behaviour
+8. Finding reliable information online
+
+### Money & enterprise skills
+9. Setting a savings goal
+10. Budgeting: money in and money out
+11. Needs, wants, and thoughtful choices
+12. From an idea to a small business
+
+Each lesson includes learning content, a key takeaway, a reflection activity, a multiple-choice knowledge check, and prepared question responses.
+
+## Features
+- Responsive layout for mobile and desktop
+- Twelve lessons available from the learning paths
+- Short quizzes with feedback
+- Learner reflection boxes
+- Completion tracking and progress display
+- Progress and reflections stored in the current browser's local storage
+- No accounts, backend, or personal data upload required
 
 ## Run locally
+Download or clone the repository and open `index.html` in a modern web browser. No build step or package installation is required.
 
-Download or clone this repository and open `index.html` in a modern web browser. No build step or package installation is required.
+## Important limitations
+This is an early educational demonstration, not a formally validated or pilot-tested product. No user-testing outcomes are claimed. The question corner uses prepared, rule-based responses; it is not connected to a live AI model. Local progress can be lost if browser data is cleared or the learner changes devices. This demo does not provide counselling, diagnosis, emergency response, or professional financial advice.
 
-## Main files
+Health lessons are general educational information and are not a substitute for advice from a qualified health professional. Before formal use with adolescents, content should be reviewed by qualified health and education professionals, and appropriate safeguarding, privacy, accessibility, consent, and local referral processes should be established.
 
+## Source files
 - `index.html` — page structure
-- `styles.css` — visual styling and responsive layout
-- `app.js` — sample lesson content and rule-based Q&A interaction
+- `styles.css` — responsive design
+- `app.js` — lesson content, quizzes, prepared Q&A, and local progress tracking
 
-## Open-source development
-
-This prototype is shared to support review and continued development. An explicit open-source license should be added before others reuse or redistribute the code.
+An explicit open-source license should be added before others reuse or redistribute the code.
